@@ -1,0 +1,76 @@
+/*CSS reset*/
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+/*targets the html body*/
+body {
+	background-image: url(../images/bg.jpg);
+	background-position: center;
+	/*background-size: cover;*/
+	background-repeat: no-repeat;
+	color: #f2f2f2; /*off white*/
+	font-family: 'Noto Sans HK', sans-serif;
+}
+/*end of body styling*/
+
+
+
+/*targets h1*/
+h1 {
+font-size: 50px;
+background-color: #333; /*offblack*/
+text-transform: uppercase;
+margin-bottom: 15px;
+letter-spacing: 3px;
+}
+/*end of h1*/
+
+
+/*start h2*/
+h2{
+color: yellow;
+text-transform: uppercase;
+margin-bottom: 15px;
+letter-spacing: 5px;
+background-color: #333; /*offblack*/
+padding: 10px;
+border-radius: 10px;
+}
+/*end h2*/
+
+/*class bio*/
+.bio {
+	font-size: 18px;
+	line-height: 1.75;
+	/*background-color: #333; /*offblack*/
+	background-color: rgba(91,51,51,0.9);
+}
+
+
+/*ID attribue*/
+#me {
+	height: 200px;
+	width: 200px;
+	border-radius: 100px;
+	border-width: 7px;
+	border-color: indianred;
+	border-style: solid;
+	margin-top: 50px;
+	margin-bottom: 25px;
+}
+
+
+
+
+/*class container*/
+.container {
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+
+}
